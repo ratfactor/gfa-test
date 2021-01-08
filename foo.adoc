@@ -1,0 +1,3 @@
+# Foo!
+
+You have reached the Foo page.
