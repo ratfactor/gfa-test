@@ -4,7 +4,7 @@ Testing various specific features of "Github-Flavored AsciiDoc".
 
 As far as I know, is still link:https://asciidoctor.org/news/2013/01/30/asciidoc-returns-to-github/[using AsciiDoctor] to generate HTML.
 
-## Relative 
+## Relative Links
 
 * relative `link:` syntax with no file extension: link:foo[foo]
 * relative `link:` syntax with file extension: link:foo.adoc[foo.adoc]
