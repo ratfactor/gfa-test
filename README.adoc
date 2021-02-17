@@ -7,23 +7,41 @@ As far as I know, is still link:https://asciidoctor.org/news/2013/01/30/asciidoc
 ## Relative Links
 
 ```
-* link: syntax NO file extension:           link:foo[foo]
-* link: syntax with file extension:         link:foo.adoc[foo.adoc]
-* <<>> syntax with # and NO file extension: <<foo#,foo>>
-* <<>> syntax with # and file extension:    <<foo.adoc#,foo.adoc>>
-* <<>> syntax NO # and NO file extension:   <<foo,foo>>
-* <<>> syntax NO # and with file extension: <<foo.adoc,foo.adoc>>
-* xref: syntax NO file extension:           xref:foo[foo]
-* xref: syntax with file extension:         xref:foo.adoc[foo.adoc]
+link:foo[foo]
 ```
+link:foo[foo]
 
-Renders as:
+```
+link:foo.adoc[foo.adoc]
+```
+link:foo.adoc[foo.adoc]
 
-* link: syntax NO file extension:           link:foo[foo]
-* link: syntax with file extension:         link:foo.adoc[foo.adoc]
-* <<>> syntax with # and NO file extension: <<foo#,foo>>
-* <<>> syntax with # and file extension:    <<foo.adoc#,foo.adoc>>
-* <<>> syntax NO # and NO file extension:   <<foo,foo>>
-* <<>> syntax NO # and with file extension: <<foo.adoc,foo.adoc>>
-* xref: syntax NO file extension:           xref:foo[foo]
-* xref: syntax with file extension:         xref:foo.adoc[foo.adoc]
+```
+<<foo#,foo>>
+```
+<<foo#,foo>>
+
+```
+<<foo.adoc#,foo.adoc>>
+```
+<<foo.adoc#,foo.adoc>>
+
+```
+<<foo,foo>>
+```
+<<foo,foo>>
+
+```
+<<foo.adoc,foo.adoc>>
+```
+<<foo.adoc,foo.adoc>>
+
+```
+xref:foo[foo]
+```
+xref:foo[foo]
+
+```
+xref:foo.adoc[foo.adoc]
+```
+xref:foo.adoc[foo.adoc]
