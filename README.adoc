@@ -7,41 +7,51 @@ As far as I know, is still link:https://asciidoctor.org/news/2013/01/30/asciidoc
 ## Relative Links
 
 ```
-link:foo[foo]
+link:foo[foo] (1)
 ```
-link:foo[foo]
+link:foo[foo] (1)
 
 ```
-link:foo.adoc[foo.adoc]
+link:foo.adoc[foo.adoc] (2)
 ```
-link:foo.adoc[foo.adoc]
+link:foo.adoc[foo.adoc] (2)
 
 ```
-<<foo#,foo>>
+<<foo#,foo>> (3)
 ```
-<<foo#,foo>>
+<<foo#,foo>> (3)
 
 ```
-<<foo.adoc#,foo.adoc>>
+<<foo.adoc#,foo.adoc>> (4)
 ```
-<<foo.adoc#,foo.adoc>>
+<<foo.adoc#,foo.adoc>> (4)
 
 ```
-<<foo,foo>>
+<<foo,foo>> (5)
 ```
-<<foo,foo>>
+<<foo,foo>> (5)
 
 ```
-<<foo.adoc,foo.adoc>>
+<<foo.adoc,foo.adoc>> (6)
 ```
-<<foo.adoc,foo.adoc>>
+<<foo.adoc,foo.adoc>> (6)
 
 ```
-xref:foo[foo]
+xref:foo[foo] (7)
 ```
-xref:foo[foo]
+xref:foo[foo] (7)
 
 ```
-xref:foo.adoc[foo.adoc]
+xref:foo.adoc[foo.adoc] (8)
 ```
-xref:foo.adoc[foo.adoc]
+xref:foo.adoc[foo.adoc] (8)
+
+```
+xref:foo#[foo] (9)
+```
+xref:foo#[foo] (9)
+
+```
+xref:foo.adoc#[foo.adoc] (10)
+```
+xref:foo.adoc#[foo.adoc] (10)
