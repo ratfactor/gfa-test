@@ -6,11 +6,24 @@ As far as I know, is still link:https://asciidoctor.org/news/2013/01/30/asciidoc
 
 ## Relative Links
 
-* relative `link:` syntax with no file extension: link:foo[foo]
-* relative `link:` syntax with file extension: link:foo.adoc[foo.adoc]
-* relative `<<xref#>>` syntax with no file extension: <<foo#,foo>>
-* relative `<<xref#>>` syntax with file extension: <<foo.adoc#,foo.adoc>>
-* relative `<<xref>>` syntax with no file extension: <<foo,foo>>
-* relative `<<xref>>` syntax with file extension: <<foo.adoc,foo.adoc>>
-* relative `xref:` syntax with no file extension: xref:foo[foo]
-* relative `xref:` syntax with file extension: xref:foo.adoc[foo.adoc]
+```
+* link: syntax NO file extension:           link:foo[foo]
+* link: syntax with file extension:         link:foo.adoc[foo.adoc]
+* <<>> syntax with # and NO file extension: <<foo#,foo>>
+* <<>> syntax with # and file extension:    <<foo.adoc#,foo.adoc>>
+* <<>> syntax NO # and NO file extension:   <<foo,foo>>
+* <<>> syntax NO # and with file extension: <<foo.adoc,foo.adoc>>
+* xref: syntax NO file extension:           xref:foo[foo]
+* xref: syntax with file extension:         xref:foo.adoc[foo.adoc]
+```
+
+Renders as:
+
+* link: syntax NO file extension:           link:foo[foo]
+* link: syntax with file extension:         link:foo.adoc[foo.adoc]
+* <<>> syntax with # and NO file extension: <<foo#,foo>>
+* <<>> syntax with # and file extension:    <<foo.adoc#,foo.adoc>>
+* <<>> syntax NO # and NO file extension:   <<foo,foo>>
+* <<>> syntax NO # and with file extension: <<foo.adoc,foo.adoc>>
+* xref: syntax NO file extension:           xref:foo[foo]
+* xref: syntax with file extension:         xref:foo.adoc[foo.adoc]
