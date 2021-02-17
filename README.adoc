@@ -12,9 +12,9 @@ link:foo[foo] (1)
 link:foo[foo] (1)
 
 ```
-link:foo.adoc[foo.adoc] (2)
+link:foo.adoc[foo] (2)
 ```
-link:foo.adoc[foo.adoc] (2)
+link:foo.adoc[foo] (2)
 
 ```
 <<foo#,foo>> (3)
@@ -22,9 +22,9 @@ link:foo.adoc[foo.adoc] (2)
 <<foo#,foo>> (3)
 
 ```
-<<foo.adoc#,foo.adoc>> (4)
+<<foo.adoc#,foo>> (4)
 ```
-<<foo.adoc#,foo.adoc>> (4)
+<<foo.adoc#,foo>> (4)
 
 ```
 <<foo,foo>> (5)
@@ -32,9 +32,9 @@ link:foo.adoc[foo.adoc] (2)
 <<foo,foo>> (5)
 
 ```
-<<foo.adoc,foo.adoc>> (6)
+<<foo.adoc,foo>> (6)
 ```
-<<foo.adoc,foo.adoc>> (6)
+<<foo.adoc,foo>> (6)
 
 ```
 xref:foo[foo] (7)
@@ -42,9 +42,9 @@ xref:foo[foo] (7)
 xref:foo[foo] (7)
 
 ```
-xref:foo.adoc[foo.adoc] (8)
+xref:foo.adoc[foo] (8)
 ```
-xref:foo.adoc[foo.adoc] (8)
+xref:foo.adoc[foo] (8)
 
 ```
 xref:foo#[foo] (9)
@@ -52,6 +52,6 @@ xref:foo#[foo] (9)
 xref:foo#[foo] (9)
 
 ```
-xref:foo.adoc#[foo.adoc] (10)
+xref:foo.adoc#[foo] (10)
 ```
-xref:foo.adoc#[foo.adoc] (10)
+xref:foo.adoc#[foo] (10)
