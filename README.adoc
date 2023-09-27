@@ -1,5 +1,9 @@
 # gfa-test
 
+
+**MOVED!** Hello, I am moving my repos to http://ratfactor.com/repos/
+and setting them to read-only ("archived") on GitHub. Thank you, _-Dave_
+
 Testing various specific features of "Github-Flavored AsciiDoc".
 
 As far as I know, is still link:https://asciidoctor.org/news/2013/01/30/asciidoc-returns-to-github/[using AsciiDoctor] to generate HTML.
